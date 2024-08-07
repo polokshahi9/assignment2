@@ -1,7 +1,7 @@
 
 
 .inter-font {
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", "Miama", sans-serif;
   font-optical-sizing: auto;
   font-weight: normal;
   font-style: normal;
@@ -19,7 +19,7 @@
 }
 
 .header_part{
-    height: 700px;
+    height: 770px;
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 800%);
 
     
@@ -82,4 +82,46 @@
     background-color: #E6533C;
     padding: 8px 25px;
     border-radius: 45px;
+}
+.img-area img{
+    width: 100%;
+   
+}
+
+.second_part{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 150px;
+  
+}
+
+.text-area{
+    font-size: 40px;
+    color: white;
+}
+
+.description{
+    color: #FFFFFF80;
+    font-size: 16px;
+    padding: 20px 0;
+}
+
+.button_one{
+    padding: 16px 40px;
+    border-radius: 40px;
+    background-color: #E6533C;
+    border: none;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+.button_two{
+    padding: 16px 40px;
+    border-radius: 40px;
+    background-color: black;
+    border: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    border: 1.5px solid #FFFFFF;
+    
+
 }
